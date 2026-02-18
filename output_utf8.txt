@@ -1,0 +1,46 @@
+﻿[Debug] Application Start
+[Config] Loaded from config.txt
+[HID] Searching for VID:0x1d57 PID:0xfa60...
+[HID] SUCCESS: Bound to RawHID interface (PAGE:0xffc0).
+[Debug] Starting threads...
+[Debug] Starting GUI...
+[GUI] Starting RenderLoop...
+[Aiming] Thread started
+[Scanning] Initializing capture at 320x320 (Turbo Mode)
+[GUI] COM initialized.
+[DXGI] Screen: 1920x1080, Offset: 800,380
+[DXGI] Initialized successfully
+[TensorRT] Loading model: best.engine
+.\x64\Debug\ConsoleApp
+lication1.exe : 
+Assertion failed: 0, 
+file C:\Users\jerky\so
+urce\repos\ConsoleAppl
+ication1\ConsoleApplic
+ation1\imgui\imgui_dra
+w.cpp, line 3182
+At line:1 char:227
++ ... ;' + $env:PATH; 
+.\x64\Debug\ConsoleApp
+lication1.exe > 
+output.txt 2>&1
++                     
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (Assertion    
+ faile....cpp, lin    
+e 3182:String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+[TensorRT] Engine load failed (Incompatible version?). Attempting Auto-Healing...
+[TensorRT] ERROR: No 
+best.onnx found to 
+rebuild from.
+[Scanning] Failed to 
+load AI model
